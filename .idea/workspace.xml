@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="813b8058-2b8d-405c-8c03-1de5c0fe5e72" name="Default Changelist" comment="" />
+    <list default="true" id="813b8058-2b8d-405c-8c03-1de5c0fe5e72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Anti-Spam-Bot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cEY7mdtXDLS5lRfjIR1kCfL3D3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,8 +34,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="BotMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,5 +83,9 @@
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
     <state width="1237" height="276" key="GridCell.Tab.0.right/0.0.1280.1024@0.0.1280.1024" timestamp="1590267296540" />
+    <state x="141" y="154" key="SettingsEditor" timestamp="1590267767990">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="141" y="154" key="SettingsEditor/0.0.1280.1024@0.0.1280.1024" timestamp="1590267767990" />
   </component>
 </project>

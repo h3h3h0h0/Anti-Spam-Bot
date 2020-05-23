@@ -8,6 +8,9 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import javax.security.auth.login.LoginException;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class BotMain extends ListenerAdapter {
@@ -19,9 +22,12 @@ public class BotMain extends ListenerAdapter {
     private boolean enabled = true;
 
 
-    public static void main(String [] args) throws LoginException {
+    public static void main(String [] args) throws LoginException, IOException {
 
-        JDA api = JDABuilder.createDefault("NzEzMTM5NjkwNDgzNDgyNjI3.Xsl8XA.A3fApDEG0fpwiCF5d_zDWXc4bl4").addEventListeners(new BotMain()).setActivity(Activity.playing("Type !sp help for commands!")).build();
+        BufferedReader br = new BufferedReader(new FileReader("config.txt"));
+
+        String token = br.readLine();
+        JDA api = JDABuilder.createDefault(token).addEventListeners(new BotMain()).setActivity(Activity.playing("Type !sp help for commands!")).build();
 
     }
 
