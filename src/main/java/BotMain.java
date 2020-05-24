@@ -17,6 +17,7 @@ public class BotMain extends ListenerAdapter {
 
     private Map<String, Integer> messageAmount = new HashMap<>();
     private Map<String, Long> lastTimeMilis = new HashMap<>();
+    private Map<String, Integer> slowmodeReset = new HashMap<>();
     private Set<String> spamChannel = new HashSet<>();
     private int messageMax = 60;
     private boolean enabled = true;
@@ -35,6 +36,7 @@ public class BotMain extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent event){
 
         int previousSlowmode = event.getTextChannel().getSlowmode();
+        //setting to spam channel sets the cooldown slowmode as the channels permanent slowmode, gonna fix tomorrow
 
         if(enabled) {
 
@@ -111,12 +113,14 @@ public class BotMain extends ListenerAdapter {
                 if(command[0].toLowerCase().equals("botdisable")){
 
                     enabled = false;
+                    event.getTextChannel().sendMessage("Bot has been disabled.").queue();
 
                 }
 
                 if(command[0].toLowerCase().equals("botenable")){
 
                     enabled = true;
+                    event.getTextChannel().sendMessage("Bot has been enabled.").queue();
 
                 }
 
