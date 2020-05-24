@@ -36,10 +36,6 @@ public class BotMain extends ListenerAdapter {
 
         int previousSlowmode = event.getTextChannel().getSlowmode();
 
-        System.out.println(previousSlowmode);
-
-        System.out.println(event.getMessage().getContentRaw());
-
         if(enabled) {
 
             if (!lastTimeMilis.containsKey(event.getTextChannel().getId())) {
@@ -100,21 +96,13 @@ public class BotMain extends ListenerAdapter {
 
         }
 
-        System.out.println(messageAmount.toString());
-        System.out.println(lastTimeMilis.toString());
-        System.out.println(spamChannel.toString());
-
         if(event.getMessage().getContentRaw().length() > 4 && event.getMessage().getContentRaw().substring(0, 3).equals("!sp") && !event.getAuthor().isBot() && event.getGuild().getMember(event.getAuthor()).hasPermission(Permission.MANAGE_CHANNEL)){
 
             String[] command = event.getMessage().getContentRaw().substring(4).split(" ");
 
-            System.out.println(Arrays.toString(command));
-
             if(command.length == 1){
 
                 if(command[0].toLowerCase().equals("help")){
-
-                    System.out.println("here");
 
                     event.getTextChannel().sendMessage("```\nsetrate <a number>: sets the maximum number of messages in a minute allowed (5 to 99)\nsetspam: sets channel as spam channel (which disables the slowmoding)\nbotdisable: disables the slowmoding for all (keeps other settings such as spam channels)\nbotenable: enables the slowmoding\n```").queue();
 

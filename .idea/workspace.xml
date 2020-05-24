@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813b8058-2b8d-405c-8c03-1de5c0fe5e72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/BotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/BotMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,22 +75,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="276" key="GridCell.Tab.0.bottom" timestamp="1590267296540">
+    <state width="1237" height="276" key="GridCell.Tab.0.bottom" timestamp="1590269500516">
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
-    <state width="1237" height="276" key="GridCell.Tab.0.bottom/0.0.1280.1024@0.0.1280.1024" timestamp="1590267296540" />
-    <state width="1237" height="276" key="GridCell.Tab.0.center" timestamp="1590267296539">
+    <state width="1237" height="276" key="GridCell.Tab.0.bottom/0.0.1280.1024@0.0.1280.1024" timestamp="1590269500516" />
+    <state width="1237" height="276" key="GridCell.Tab.0.center" timestamp="1590269500515">
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
-    <state width="1237" height="276" key="GridCell.Tab.0.center/0.0.1280.1024@0.0.1280.1024" timestamp="1590267296539" />
-    <state width="1237" height="276" key="GridCell.Tab.0.left" timestamp="1590267296539">
+    <state width="1237" height="276" key="GridCell.Tab.0.center/0.0.1280.1024@0.0.1280.1024" timestamp="1590269500515" />
+    <state width="1237" height="276" key="GridCell.Tab.0.left" timestamp="1590269500515">
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
-    <state width="1237" height="276" key="GridCell.Tab.0.left/0.0.1280.1024@0.0.1280.1024" timestamp="1590267296539" />
-    <state width="1237" height="276" key="GridCell.Tab.0.right" timestamp="1590267296540">
+    <state width="1237" height="276" key="GridCell.Tab.0.left/0.0.1280.1024@0.0.1280.1024" timestamp="1590269500515" />
+    <state width="1237" height="276" key="GridCell.Tab.0.right" timestamp="1590269500516">
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
-    <state width="1237" height="276" key="GridCell.Tab.0.right/0.0.1280.1024@0.0.1280.1024" timestamp="1590267296540" />
+    <state width="1237" height="276" key="GridCell.Tab.0.right/0.0.1280.1024@0.0.1280.1024" timestamp="1590269500516" />
     <state x="141" y="154" key="SettingsEditor" timestamp="1590267767990">
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
